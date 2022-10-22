@@ -1,0 +1,23 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title> MSG </title>
+		<link rel="stylesheet" href="MSG.css">
+		
+</head> 
+	<div class="navbar">
+	<img src="pochita.png" class="logo">
+	<ul>
+	<li> <a href="#"> ME</li> </a> 
+	<li> <a href="#"> GILDA</li> </a>
+	<li> <a href="#"> GLADYS</li> </a>
+	<li> <a href="#"> BOI UNSENT</li> </a>
+	<li> <a href="hbd.html"> Home	</li> </a>
+</ul>
+</div>	
+</br></br>
+	
+		<div class="div"><button> MASSEGE FOR YOU </button>
+	<div>
+</body> 
+</html> 	

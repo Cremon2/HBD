@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+		background-color: pink; 
+		color: white;
+		text-align: center;
+		padding: 250px 0;
+		
+}
+.click ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.click ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.click ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: black;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition:0.5s;
+}
+.click ul li:hover::after{
+	width: 100%;
+}
