@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman;
+}
+
+body {
+		background-color: #FFE5B4; 
+		color: black;
+		text-align: center;
+		padding: 50px 0;
+}
+.center {
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+}
+.Me {
+		background-color: black; 
+		color: white;
+		text-align: center;
+		padding: 50px 0;
+	
+}
+.Me1 {
+		background-image: url("peach.webp");
+		background-color: #F98B88; 
+		background-size: cover;
+		color: Black;
+		font-family: arial;
+		text-align: center;
+		padding: 50px 0;
+	
+}
+.logo {
+		width: 120px;
+		cursor: pointer;
+		opacity:0.5; 
+}
+.backz {
+		width: 70px;
+		margin: auto;
+		padding: 0%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		
+}
+.back ul li{
+		cursor: pointer;
+		list-style: none;
+		display: inline-block;
+		margin: 0 20px;
+		position: relative;
+}
+.back ul li a{
+		text-decoration: none;
+		color: white;
+		text-transform: uppercase;
+}
+.back ul li::after{
+		content: '';
+		height: 5px;
+		width: 0;
+		background: white;
+		position: absolute;
+		left: 0;
+		bottom: -10px;
+		transition:0.5s;
+	
+}
+.back ul li:hover::after{
+		width: 100%;
+}
+.navbar{
+		width: 85%;
+		margin: auto;
+		padding: 35px 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+}
+.navbar ul li{
+		list-style: none;
+		display: inline-block;
+		margin: 0 20px;
+		position: relative;
+}
+.navbar ul li a{
+		text-decoration: none;
+		color: black;
+		text-transform: uppercase;
+}
+.navbar ul li::after{
+		content: '';
+		height: 3px;
+		width: 0;
+		background: pink;
+		position: absolute;
+		left: 0;
+		bottom: -10px;
+		transition:0.5s;
+	
+}
+.navbar ul li:hover::after{
+		width: 100%;
+}
+.div {
+		width: 150px;
+		height: 150px;
+		background: pink;
+		transition: width 1.5s;
+		margin: auto;
+		border: 0;
+		padding: 10px 10;
+		text-align: center;
+		horizontal-align: middle;
+}
+
+.div:hover {
+	width: 700px;
+}
+.backz {
+		width: 70px;
+		margin: auto;
+		padding: 0%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		
+}
+.back1 ul li{
+		cursor: pointer;
+		list-style: none;
+		display: inline-block;
+		margin: 0 20px;
+		position: relative;
+}
+.back1 ul li a{
+		text-decoration: none;
+		color: black;
+		text-transform: uppercase;
+}
+.back1 ul li::after{
+		content: '';
+		height: 5px;
+		width: 0;
+		background: #F98B88;
+		position: absolute;
+		left: 0;
+		bottom: -10px;
+		transition:0.5s;
+	
+}
+.back1 ul li:hover::after{
+		width: 100%;
+}
