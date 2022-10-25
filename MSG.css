@@ -117,7 +117,8 @@ body {
 .div {
 		width: 150px;
 		height: 150px;
-		background: pink;
+		background: black;
+		color: #FFE5B4;
 		transition: width 1.5s;
 		margin: auto;
 		border: 0;
