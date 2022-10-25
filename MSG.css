@@ -71,7 +71,7 @@ body {
 		content: '';
 		height: 5px;
 		width: 0;
-		background: white;
+		background: #FFE5B4;
 		position: absolute;
 		left: 0;
 		bottom: -10px;
