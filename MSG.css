@@ -64,14 +64,14 @@ body {
 }
 .back ul li a{
 		text-decoration: none;
-		color: white;
+		color: #FFE5B4;
 		text-transform: uppercase;
 }
 .back ul li::after{
 		content: '';
 		height: 5px;
 		width: 0;
-		background: #FFE5B4;
+		background: white;
 		position: absolute;
 		left: 0;
 		bottom: -10px;
